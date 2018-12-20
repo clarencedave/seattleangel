@@ -38,8 +38,8 @@ const Header = ({ siteTitle }) => (
           <div id="navigate-right">
           <a  href="/">Home</a>
           <a href="about">About</a>
-          <a href="#about">Resources</a>
-          <a href="#about">Leadership</a>
+          <a href="#Resources">Resources</a>
+          <a href="#Leadership">Leadership</a>
           </div>
           </div>
 
