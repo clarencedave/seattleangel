@@ -37,7 +37,7 @@ const Header = ({ siteTitle }) => (
           <a href="/" id="logo"><img src = {logo} alt = ""/></a>
           <div id="navigate-right">
           <a  href="/">Home</a>
-          <a href="#contact">About</a>
+          <a href="about">About</a>
           <a href="#about">Resources</a>
           <a href="#about">Leadership</a>
           </div>
