@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
-    description: 'Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.',
-    author: '@gatsbyjs',
+    title: 'Seattle Angel ',
+    description: 'Kick ofA non-profit corporation. Sparking the flame of angel investing in the Northwest',
+    author: '@nwangelconf',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -29,6 +29,15 @@ module.exports = {
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
+    `gatsby-transformer-remark`,
+    'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/pages`,
+        name: "pages",
+      },
+    },
+
   ],
 }
