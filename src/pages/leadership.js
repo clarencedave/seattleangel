@@ -5,8 +5,10 @@ import name from '../images/Keith.jpg'
 import forever from '../images/Geoff.jpg'
 import yolo from '../images/Josh.jpg'
 import solo from '../images/Brad.jpg'
+import SEO from '../components/seo'
 const ContactPage = () => (
   <Layout>
+       <SEO title="Leadership" />
       <br/> 
       <br/>
 
