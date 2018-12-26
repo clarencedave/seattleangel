@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Seattle Angel ',
-    description: 'Kick ofA non-profit corporation. Sparking the flame of angel investing in the Northwest',
+    description: 'Kick of A non-profit corporation. Sparking the flame of angel investing in the Northwest',
     author: '@nwangelconf',
   },
   plugins: [
