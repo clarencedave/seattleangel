@@ -38,7 +38,7 @@ const Header = ({ siteTitle }) => (
           <a  href="/">Home</a>
           <a href="aboutpage">About</a>
           <a href="sources">Resources</a>
-          <a href="#Leadership">Leadership</a>
+          <a href="leadership">Leadership</a>
           </div>
           </div>
 
