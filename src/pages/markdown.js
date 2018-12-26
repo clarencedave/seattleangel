@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
-
+import SEO from '../components/seo'
 import Layout from '../components/layout'
 const IndexPage = (props) => {
   const postList = props.data.allMarkdownRemark;
@@ -9,6 +9,7 @@ const IndexPage = (props) => {
   return (
     
     <Layout>
+       <SEO title="Posts" />
       <div className=" Position">
       <div className="inside">
       <TwitterTimelineEmbed sourceType="profile" userId={2829884545} options={{height: 400}} />
