@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 
 const testPage = () => (
   <Layout>
-  <div id="typedtext"></div>
+  
   </Layout>
 )
 

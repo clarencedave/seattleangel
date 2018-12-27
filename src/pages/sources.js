@@ -105,11 +105,6 @@ const ResourcesPage = () => (
      <a href = "http://talkfast.org/2010/04/27/angel-investing-simulation"> <li>Angel Investing Simulation</li> </a><p>by Jeff Miller</p>
      
 
-      
-
-
-      
-
 
   </Layout>
 )

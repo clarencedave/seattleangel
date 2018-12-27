@@ -2,8 +2,10 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import logo from '../images/seattle-angel-logo.png'
-
-
+import team from '../images/leadership.png'
+import home from '../images/home.png'
+import about from '../images/about.png'
+import source from '../images/source.png'
 
 const Header = ({ siteTitle }) => (
   <div
@@ -35,10 +37,10 @@ const Header = ({ siteTitle }) => (
           <div id="navigate">
           <a href="/" id="logo"><img src = {logo} alt = ""/></a>
           <div id="navigate-right">
-          <a  href="/">Home</a>
-          <a href="aboutpage">About</a>
-          <a href="sources">Resources</a>
-          <a href="leadership">Leadership</a>
+          <a  href="/"><img  src = {home} alt = ""/>Home</a>
+          <a href="aboutpage"><img  src = {about} alt = ""/>About</a>
+          <a href="sources"><img  src = {source} alt = ""/>Resources</a>
+          <a href="leadership"><img  src = {team} alt = ""/>  Leadership</a>
           </div>
           </div>
 
