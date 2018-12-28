@@ -1,4 +1,4 @@
-
+import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 import logo from '../images/seattle-angel-logo.png'
@@ -35,12 +35,12 @@ const Header = ({ siteTitle }) => (
 
 
           <div id="navigate">
-          <a href="/" id="logo"><img src = {logo} alt = ""/></a>
+          <Link id="logo" to="/"><img src = {logo} alt = ""/></Link>
           <div id="navigate-right">
-          <a  href="/"><img  src = {home} alt = ""/>Home</a>
-          <a href="aboutpage"><img  src = {about} alt = ""/>About</a>
-          <a href="sources"><img  src = {source} alt = ""/>Resources</a>
-          <a href="leadership"><img  src = {team} alt = ""/>  Leadership</a>
+          <Link to="/"><img  src = {home} alt = ""/>Home</Link>
+          <Link to="aboutpage"><img  src = {about} alt = ""/>About</Link>
+          <Link to="sources"><img  src = {source} alt = ""/>Resources</Link>
+          <Link to="leadership"><img  src = {team} alt = ""/>  Leadership</Link>
           </div>
           </div>
 
