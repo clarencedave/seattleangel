@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-
+import {Link} from 'gatsby'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={['Seattle Angel', 'Seattle Angel Conference', 'Seattle']} />
@@ -10,7 +10,7 @@ const IndexPage = () => (
     <p class="line-1 anim-typewriter">A non-profit corporation. Sparking the flame of angel investing in the Northwest.</p>
 
 
-    <button class=" button "><span>Learn More </span></button>
+  <Link to = "markdown">  <button class=" button "><span>Learn More </span></button></Link>
     <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
 
 
