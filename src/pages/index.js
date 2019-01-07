@@ -10,7 +10,7 @@ const IndexPage = () => (
     <p class="line-1 anim-typewriter">A non-profit corporation. Sparking the flame of angel investing in the Northwest.</p>
 
 
-    <button class="button1"><a href = "markdown">Learn More</a></button>
+    <button class=" button "><span>Learn More </span></button>
     <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
 
 
