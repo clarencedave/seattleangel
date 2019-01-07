@@ -10,7 +10,7 @@ import source from '../images/source.png'
 const Header = ({ siteTitle }) => (
   <div
     style={{
-      background: 'White',
+      background: 'transparent',
       marginBottom: '1.45rem',
     }}
   >

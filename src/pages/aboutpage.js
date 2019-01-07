@@ -5,7 +5,7 @@ const AboutPage = () => (
   <Layout>
       <SEO title="About" />
       
-   <h1>About us</h1>
+   <h1><center><u>About us</u></center></h1>
    <br/>
    <br/>
    <h2>What is Seattle Angel?</h2>

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Seattle Angel ',
+    title: ' ',
     description: 'Kick of A non-profit corporation. Sparking the flame of angel investing in the Northwest',
     author: '@nwangelconf',
   },
