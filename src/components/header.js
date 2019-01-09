@@ -42,6 +42,7 @@ const Header = ({ siteTitle }) => (
           <Link to="aboutpage"><img  src = {about} alt = ""/>About</Link>
           <Link to="sources"><img  src = {source} alt = ""/>Resources</Link>
           <Link to="leadership"><img  src = {team} alt = ""/>  Leadership</Link>
+          <Link to="newsletter"><img   alt = ""/>  Newsletter</Link>
           </div>
           </div>
 
