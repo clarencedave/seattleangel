@@ -6,7 +6,7 @@ import team from '../images/leadership.png'
 import home from '../images/home.png'
 import about from '../images/about.png'
 import source from '../images/source.png'
-
+import email from '../images/email.png'
 const Header = ({ siteTitle }) => (
   <div
     style={{
@@ -42,7 +42,7 @@ const Header = ({ siteTitle }) => (
           <Link to="aboutpage"><img  src = {about} alt = ""/>About</Link>
           <Link to="sources"><img  src = {source} alt = ""/>Resources</Link>
           <Link to="leadership"><img  src = {team} alt = ""/>  Leadership</Link>
-          <Link to="newsletter"><img   alt = ""/>  Newsletter</Link>
+          <Link to="newsletter"><img src = {email}  alt = ""/>  Newsletter</Link>
           </div>
           </div>
 

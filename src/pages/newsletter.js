@@ -4,7 +4,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-const SecondPage = () => (
+const newsletterPage = () => (
   <Layout>
     <SEO title="Newsletter" />
 
@@ -28,4 +28,4 @@ const SecondPage = () => (
   </Layout>
 )
 
-export default SecondPage
+export default newsletterPage
