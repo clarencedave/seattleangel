@@ -830,7 +830,7 @@ pre tt:after {
     font-size: 100%;
   }
   body {
-    font-size: 75%;
+   
     padding-top: 24px;
     padding-right: 24px;
     padding-left: 24px;
@@ -839,11 +839,11 @@ pre tt:after {
 
   .line-1{
     position: relative;
-    top: 25%;  
-    width: 12em;
-    margin: 0 auto;
+    top: 10%;  
+    width: 24em;
+    margin: -5% -14%;
     border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 50%;
+    font-size: 60%;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
